@@ -1,0 +1,30 @@
+<!-- OUSMANE EST UN GROS CON -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<title>Cat vs. Dino magueul</title>
+		<link rel="stylesheet" href="css/doit.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		
+		<link rel="icon" type="image/png" href="img/favicon.png" />
+
+	</head>
+	<body>
+		<div id="cover">
+			<div id="logo"><img src="img/logo.png" alt="Smash the Kitty" /></div>  
+			<div id="video">
+				<iframe id="frame" src="http://z0r.de"></iframe>
+			</div>
+			<div id="reload"></div>
+		</div>
+	  	<script type="text/javascript"> 
+	  		var LoadVid = function () {
+	  			var composer = Math.ceil(3260*Math.random());
+	  			$('#frame').attr('src', 'http://z0r.de/L/z0r-de_'+composer+'.swf');
+			}; 
+			LoadVid();
+			$('#reload').click(LoadVid);
+	  	</script>
+	</body>
+</html>

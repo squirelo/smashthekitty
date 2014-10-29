@@ -1,0 +1,92 @@
+/*!
+ * standard layout
+ * Landing page by Hackerloop
+ */
+
+
+/*
+Typo
+*/
+
+
+body {
+  font-size: 18px;
+  color: #222;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}   
+
+h1 {
+  font-weight: 400;
+  font-size: 2.1em;
+}
+
+
+
+
+.logo {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 1.8em;
+}
+
+.header {
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+.about {
+  color: #222;
+}
+
+.services {
+  padding: 2em 0;
+
+}
+
+
+/*
+Mailchimp form
+*/
+
+.error {
+  font-weight: 400;
+  font-size: 0.8em;
+  color: red;
+}
+.valid {
+  font-weight: 400;
+  font-size: 0.8em;
+} 
+.mc-label {
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+
+/*
+Footer
+*/
+
+footer {
+  padding: 2em 0;
+  text-align: center;
+}
+
+/*
+Responsive variables
+*/
+
+@media(min-width:1024px) {
+}
+
+@media(min-width:768px) {
+}
+
+@media(max-width:767px) {
+  body {
+    font-size: 16px;
+  }
+
+}
